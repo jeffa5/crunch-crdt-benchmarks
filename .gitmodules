@@ -1,3 +1,9 @@
 [submodule "automerge"]
 	path = automerge
-	url = https://github.com/automerge/automerge
+	url = git@github.com:automerge/automerge.git
+[submodule "automerge-rs"]
+	path = automerge-rs
+	url = git@github.com:automerge/automerge-rs.git
+[submodule "automerge-perf"]
+	path = automerge-perf
+	url = git@github.com:automerge/automerge-perf.git
