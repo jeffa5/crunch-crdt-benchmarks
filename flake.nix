@@ -3,7 +3,6 @@
 
   inputs = {
     flake-utils.url = "github:numtide/flake-utils";
-
   };
 
   outputs = { self, nixpkgs, flake-utils }:
@@ -20,7 +19,8 @@
             buildInputs = with pkgs; [
               nodejs
 
-              python
+              python3
+              python3Packages.awesome-slugify
 
               rnix-lsp
               nixpkgs-fmt
